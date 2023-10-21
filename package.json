@@ -1,0 +1,54 @@
+{
+  "name": "bizdirui",
+  "version": "0.0.1",
+  "description": "This is a City wise Business Directory",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GTM-Software/bizdirui.git"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "gatsby",
+    "JAMStack"
+  ],
+  "author": "Ankur Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GTM-Software/bizdirui/issues"
+  },
+  "homepage": "https://github.com/GTM-Software/bizdirui#readme",
+  
+  "dependencies": {
+    "@fontsource/merriweather": "^5.0.3",
+    "@fontsource-variable/montserrat": "^5.0.4",
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-feed": "^5.12.0",
+    "gatsby-plugin-image": "^3.12.0",
+    "gatsby-plugin-manifest": "^5.12.0",
+    "gatsby-plugin-sharp": "^5.12.0",
+    "gatsby-remark-images": "^7.12.0",
+    "gatsby-remark-prismjs": "^7.12.0",
+    "gatsby-remark-responsive-iframe": "^6.12.0",
+    "gatsby-source-filesystem": "^5.12.0",
+    "gatsby-transformer-remark": "^6.12.0",
+    "gatsby-transformer-sharp": "^5.12.0",
+    "prismjs": "^1.29.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "gatsby-cli": "^5.12.3",
+    "prettier": "^2.8.8"
+  }
+}

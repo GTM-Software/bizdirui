@@ -113,6 +113,10 @@ dist
 # FuseBox cache
 .fusebox/
 
+# gatsby files
+.cache/
+public
+
 # DynamoDB Local files
 .dynamodb/
 
